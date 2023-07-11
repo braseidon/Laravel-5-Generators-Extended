@@ -1,5 +1,5 @@
 Schema::create('{{table}}', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->id();
             {{schema_up}}
             $table->timestamps();
         });
